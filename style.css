@@ -242,3 +242,62 @@ footer {
     margin-top: 60px;
     font-size: 14px;
 }
+
+.order-section {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-top: 5px solid #ff9800; /* Viền cam đồng bộ với trang web */
+}
+
+.order-form {
+    max-width: 600px;
+    margin: 0 auto; /* Căn giữa form */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #5d4037; /* Màu nâu ấm */
+}
+
+.form-group input, 
+.form-group select, 
+.form-group textarea {
+    padding: 10px 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: inherit;
+    color: #4a3b32;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+}
+
+/* Hiệu ứng khi nhấn vào ô nhập liệu */
+.form-group input:focus, 
+.form-group select:focus, 
+.form-group textarea:focus {
+    outline: none;
+    border-color: #ff9800;
+    background-color: #fff;
+}
+
+/* Nút gửi đơn hàng */
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
